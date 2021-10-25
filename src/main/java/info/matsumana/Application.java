@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Jsr330ScopeMetadataResolver;
 @ComponentScan(basePackages = "info.matsumana", scopeResolver = Jsr330ScopeMetadataResolver.class)
 public class Application {
     public static void main(String[] args) {
-    
+        System.out.println("commit");
         SpringApplication.run(Application.class, args);
     }
 }
